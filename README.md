@@ -2,10 +2,10 @@
 Profesor: Lic. Leandro Amaro García.
 
 ## Condiciones
-Esta totalmente prohbido el uso herramientas de AI como chatGPT o Copilot. Así como también utilizar examenes de años anteriores. El material que pueden consultar es Internet, o actividades realizadas en clase, no TPs con código resuelto.
-Por último esta prohibido usar el celular y conversar entre ustedes en ninguna plataforma.
-Cualquier minima sospecha de que no se cumplen las condiciones propuestas, será motivo de invalidez del final y nota 2 en acta.
-Se aprueba con 7 (siete)
+- Esta totalmente prohbido el uso herramientas de AI como chatGPT o Copilot. Así como también utilizar examenes de años anteriores. - El material que pueden consultar es Internet, o actividades realizadas en clase, no TPs con código resuelto.
+- Por último esta prohibido usar el celular y conversar entre ustedes en ninguna plataforma. Cualquier minima sospecha de que no se cumplen las condiciones propuestas, será motivo de invalidez del final y nota 2.
+- Se aprueba con: 7 (siete)
+- Tiempo disponible: 3 hrs
 
 ## Consigna
 El proyecto consiste en el armado de una app de películas. La cual cuenta con una grilla de películas, un detalle de cada película.
@@ -16,15 +16,16 @@ Dicho esto comencemos =)
 ## Repositorio y entrega
 - Debes clonar este repositorio en tu computadora.
 - Crear un repositorio publico y vacio en Github. Copiá en el portapapeles la url
-- Abrir el proyecto y escribir:
--- `` git remote -v `` (para chequear la url remota)
--- `` git remote set-url origin [la url de tu repositorio] ``
--- `` git remote -v `` (para chequear que haya cambiado y sea la tuya)
+
+Abrir el proyecto y escribir:
+- `` git remote -v `` (para chequear la url remota)
+- `` git remote set-url origin [la url de tu repositorio] ``
+- `` git remote -v `` (para chequear que haya cambiado y sea la tuya)
 
 Cuando termines el examen, haces
--- `` git add . ``
--- `` git commit -m "examen prog 3 Apellido" ``
--- `` git push origin main ``
+-  `` git add . ``
+-  `` git commit -m "examen prog 3 Apellido" ``
+-  `` git push origin main ``
 
 Ingresar a https://docs.google.com/spreadsheets/d/1wufMCeK-glnSJHEdSsuE2nkMGYyWSID36lSb-EctenY/edit?usp=sharing
 En la columna I pegar el link de tu repo
