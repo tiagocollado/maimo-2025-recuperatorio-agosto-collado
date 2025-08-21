@@ -1,4 +1,4 @@
-# Examen Programación 3 - Agosto/2025
+# Recuperatorio Examen Programación 3 - Agosto/2025
 Profesor: Lic. Leandro Amaro García.
 
 ## Condiciones
@@ -51,11 +51,11 @@ Deberás completar las funciones fetchMovies (MoviesGridContainer) y fetchMovieD
 
 
 ### 2) Card de movie - 2 puntos
-- En MoviesGrid.js es una grilla de peliculas que deberia mostrar cada card de película. Tu tarea es recorrer mediante map el array de movies y mostrar el componente llamado Card. No modifiques nombres de variables. Recordá el uso de loading para conditional rendering. Si lo hiciste correctamente, deberias ver una grilla de posters de películas.
-- En el componente Card.js reemplazá los valores dinámicamente
+- En MoviesGrid.js es una grilla de peliculas que deberia mostrar cada card de película. Tu tarea es recorrer mediante map el array de movies y mostrar el componente llamado Card. No modifiques nombres de variables. Recordá el uso de loading para conditional rendering. Si lo hiciste correctamente, deberias ver una grilla de posters de películas. 
+- En el componente Card.js reemplazá los valores dinámicamente. En cada card debés mostrar: title, imagen (poster_path), puntucación (vote_average).
 
-### 3) Generos de la película - 1 punto
-- Nuevamente en MovieDetail.js vas a encontrar un ul con clase generos. Tu tarea es armar el loop que te permita mostrar todos los generos que corresponden a esa película.
+### 3) Página de movie - 1 punto
+- Nuevamente en MovieDetail.js vas a encontrar un ul con clase generos. Tu tarea es armar el loop que te permita mostrar todos los generos (genres) que corresponden a esa película. Además debés mostrar: title, overview, duración (runtime) con la palabra minutos y el nombre de las productoras (production_companies)
 
 
 ### 4) Página de About del alumno - 4 puntos
@@ -65,7 +65,7 @@ Deberás utilizar la página /about y completarle:
 La imagen debe venir oculta por defecto y se debe mostrar un botón que diga Ver imagen. Al clickearlo, debera reemplazar ese boton con la imagen. Para esto deberás usar useState y el evento onclick y conditional rendering.
 - Un breve parrafo acerca tuyo.
 - Un link a linkedin o alguna red social tuya
-- Un listado de hobbies o gustos. Los hobbies deben estar cargados en un array y mostrarse mediante el uso de map. Cada hobbie deberá ser un objeto que contenga el nombre y un número expresando cuanto te gusta ese hobbie. En el listado, deberás agregarle el signo % Ej: Música 50%. Películas 20%
+- Un listado de tus películas favoritas. Las peliculas deben estar cargadas en un array y mostrarse mediante el uso de map(). Cada pelicula deberá ser un objeto que contenga el nombre y un número expresando cuantas veces viste esa pelicula. En el listado, deberás agregarle la palabra veces (ej: Batman: 10 veces). Solo las peliculas vistas mas de 3 veces deben mostrarse. Utilizar filter()
 - No olvides agregar el link a la pagina de about en el componente Navbar.
 - Esta página deber ser responsive.
 

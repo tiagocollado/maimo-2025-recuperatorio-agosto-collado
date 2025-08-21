@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function page() {
   const [showImage, setShowImage] = useState(false);
 
-  const hobbies = [];
+  const peliculas = [];
 
   return (
     <div className='max-w-[1200px] my-8 mx-auto pt-11'>
